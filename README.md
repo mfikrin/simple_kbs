@@ -13,6 +13,8 @@
 ## Data Source
 [Data Sets for Evaluation of Building Fault Detection and Diagnostics Algorithms](https://catalog.data.gov/dataset/data-sets-for-evaluation-of-building-fault-detection-and-diagnostics-algorithms-2de50)
 
+## Documentation
+[Documentation](docs/Laporan%20IF4070-13519018-13519069-13519091.pdf)
 ## Contributors
 - Mohammad Sheva Almeyda Sofjan (13519018)
 - Muhammad Fikri N. (13519069)
