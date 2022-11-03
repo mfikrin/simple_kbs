@@ -32,7 +32,8 @@ submit.addEventListener("click", (e) => {
     .then((response) => response.json())
     .then((data) => {
       console.log("Success:", data);
-      document.getElementById("result").innerHTML = "Result | Fault Detection Ground Truth : " + data["Fault Detection Ground Truth"];
+      output_string = data["Fault Detection Ground Truth"] == 1? "Faulted" : "Unfaulted";
+      document.getElementById("result").innerHTML = "Result | Fault Detection Ground Truth : " + output_string + " (" + data["Fault Detection Ground Truth"] + ")";
       let outputSection = document.getElementById("output-section");
       outputSection.style.display = "block";
       window.scrollTo(0, 0);
