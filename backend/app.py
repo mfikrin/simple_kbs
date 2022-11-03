@@ -1,10 +1,17 @@
+import os
 import pandas as pd
 import joblib
 from sklearn.ensemble import RandomForestClassifier
 from flask import request,Flask,jsonify
+from flask_cors import CORS, cross_origin
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
+env_config=os.getenv("APP_SETTINGS", "config.DevelopmentConfig")
+app.config.from_object(env_config)
 
 @app.route('/predict', methods=['POST'])
+@cross_origin()
 def predict():
     _json = request.json
     SAT = _json['SAT']
@@ -31,4 +38,4 @@ def predict():
 
 
 if __name__ == '__main__':
-     app.run(port=8080)
+     app.run()
