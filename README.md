@@ -1,4 +1,4 @@
-# Tugas IF4070 Representasi Pengetahuan dan Penalaran : Knowledge Based System
+# Tugas IF4043 Sistem Informasi Lanjut : Knowledge Based System
 > Fault detection and diagnostics algorithms for buildings Knowledge Base
 ## How to run (locally):
 1. Run [main.html](frontend/main.html) in the browser
