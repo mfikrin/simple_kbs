@@ -22,4 +22,3 @@
 ## Contributors
 - Mohammad Sheva Almeyda Sofjan (13519018)
 - Muhammad Fikri N. (13519069)
-- Mohammad Yahya Ibrahim (13519091)
